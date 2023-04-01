@@ -1,0 +1,23 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header__button {
+  background-color: transparent;
+  border: 1px solid #232020;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  .header__logo {
+    width: 124px;
+  }
+}
